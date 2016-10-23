@@ -1,0 +1,29 @@
+body{font-family: 'Montserrat', sans-serif;}
+
+#youtube{
+
+}
+
+#youtube .overlay{
+    display:none;
+    background:#FFF;
+    margin:10px;
+    padding:20px;
+    border-radius: 7px;
+}
+
+#youtube .yt-video{
+    z-index: -1;
+}
+
+#results{
+    display:none;
+}
+
+#results li{
+    font-size:16px;
+}
+
+
+.controls li{cursor:pointer;}
+

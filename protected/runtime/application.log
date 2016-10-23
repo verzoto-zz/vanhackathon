@@ -1,0 +1,1655 @@
+2016/10/22 13:36:09 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.user_email" is not defined.' in /home/ubuntu/workspace/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/helpers/CHtml.php(2529): CComponent->__get('user_email')
+#1 /home/ubuntu/workspace/yii/framework/web/helpers/CHtml.php(2252): CHtml::resolveValue(Object(LoginForm), 'user_email')
+#2 /home/ubuntu/workspace/yii/framework/web/helpers/CHtml.php(1434): CHtml::activeInputField('text', Object(LoginForm), 'user_email', Array)
+#3 /home/ubuntu/workspace/yii/framework/web/widgets/CActiveForm.php(725): CHtml::activeTextField(Object(LoginForm), 'user_email', Array)
+#4 /home/ubuntu/workspace/interactivevideo/protected/views/site/login.php(18): CActiveForm->textField(Object(LoginForm), 'user_email')
+#5 /home/ubuntu/workspace/yii/framework/web/CBaseController.php(126): require('/home/ubuntu/wo...')
+#6 /home/ubuntu/workspace/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/ubuntu/wo...', Array, true)
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/ubuntu/wo...', Array, true)
+#8 /home/ubuntu/workspace/yii/framework/web/CController.php(782): CController->renderPartial('login', Array, true)
+#9 /home/ubuntu/workspace/interactivevideo/protected/controllers/SiteController.php(96): CController->render('login', Array)
+#10 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/interactivevideo/
+---
+2016/10/22 13:40:13 [warning] [application] Failed to set unsafe attribute "user_email" of "LoginForm".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/SiteController.php (87)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/22 13:40:13 [warning] [application] Failed to set unsafe attribute "user_password" of "LoginForm".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/SiteController.php (87)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/22 13:40:13 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.username" is not defined.' in /home/ubuntu/workspace/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/validators/CRequiredValidator.php(58): CComponent->__get('username')
+#1 /home/ubuntu/workspace/yii/framework/validators/CValidator.php(213): CRequiredValidator->validateAttribute(Object(LoginForm), 'username')
+#2 /home/ubuntu/workspace/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#3 /home/ubuntu/workspace/interactivevideo/protected/controllers/SiteController.php(90): CModel->validate()
+#4 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/
+---
+2016/10/22 13:41:38 [warning] [application] Failed to set unsafe attribute "user_email" of "LoginForm".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/SiteController.php (87)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/22 13:41:38 [warning] [application] Failed to set unsafe attribute "user_password" of "LoginForm".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/SiteController.php (87)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/22 13:41:38 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.$username" is not defined.' in /home/ubuntu/workspace/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/helpers/CHtml.php(2529): CComponent->__get('$username')
+#1 /home/ubuntu/workspace/yii/framework/web/helpers/CHtml.php(2252): CHtml::resolveValue(Object(LoginForm), '$username')
+#2 /home/ubuntu/workspace/yii/framework/web/helpers/CHtml.php(1434): CHtml::activeInputField('text', Object(LoginForm), '$username', Array)
+#3 /home/ubuntu/workspace/yii/framework/web/widgets/CActiveForm.php(725): CHtml::activeTextField(Object(LoginForm), '$username', Array)
+#4 /home/ubuntu/workspace/interactivevideo/protected/views/site/login.php(24): CActiveForm->textField(Object(LoginForm), '$username', Array)
+#5 /home/ubuntu/workspace/yii/framework/web/CBaseController.php(126): require('/home/ubuntu/wo...')
+#6 /home/ubuntu/workspace/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/ubuntu/wo...', Array, true)
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/ubuntu/wo...', Array, true)
+#8 /home/ubuntu/workspace/yii/framework/web/CController.php(782): CController->renderPartial('login', Array, true)
+#9 /home/ubuntu/workspace/interactivevideo/protected/controllers/SiteController.php(96): CController->render('login', Array)
+#10 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/interactivevideo/
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/
+---
+2016/10/22 13:54:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "platform/index".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/index')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/platform/index
+---
+2016/10/22 13:56:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "platform/index".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/index')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/platform/index
+---
+2016/10/22 13:56:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "platform/video".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/platform/video
+---
+2016/10/22 16:18:51 [error] [exception.CException] exception 'CException' with message 'PlatformController cannot find the requested view "/video/new".' in /home/ubuntu/workspace/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(782): CController->renderPartial('/video/new', NULL, true)
+#1 /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php(60): CController->render('/video/new')
+#2 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): PlatformController->actionNewVideo()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('newvideo')
+#7 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/newvid...')
+#8 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/interactivevideo/platform/newvideo
+---
+2016/10/22 16:29:54 [error] [php] include(VideoModel.php): failed to open stream: No such file or directory (/home/ubuntu/workspace/yii/framework/YiiBase.php:427)
+Stack trace:
+#0 /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php(60): spl_autoload_call()
+#1 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): PlatformController->actionNewVideo()
+#2 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(286): PlatformController->runAction()
+#4 /home/ubuntu/workspace/yii/framework/web/CController.php(265): PlatformController->runActionWithFilters()
+#5 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): PlatformController->run()
+#6 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#8 /home/ubuntu/workspace/interactivevideo/index.php(13): CWebApplication->run()
+REQUEST_URI=/interactivevideo/platform/newvideo
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (60)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/22 16:33:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'interative_videos'' in /home/ubuntu/workspace/yii/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /home/ubuntu/workspace/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /home/ubuntu/workspace/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /home/ubuntu/workspace/yii/framework/base/CModule.php(103): CModule->getComponent('db')
+#4 /home/ubuntu/workspace/interactivevideo/protected/components/UserIdentity.php(20): CModule->__get('db')
+#5 /home/ubuntu/workspace/interactivevideo/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#6 /home/ubuntu/workspace/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#7 /home/ubuntu/workspace/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#8 /home/ubuntu/workspace/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#9 /home/ubuntu/workspace/interactivevideo/protected/controllers/SiteController.php(90): CModel->validate()
+#10 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#11 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#13 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('')
+#15 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#16 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/interactivevideo/
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/
+---
+2016/10/22 16:41:34 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity._id" is not defined.' in /home/ubuntu/workspace/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/ubuntu/workspace/interactivevideo/protected/components/UserIdentity.php(31): CComponent->__set('_id', '54')
+#1 /home/ubuntu/workspace/interactivevideo/protected/models/LoginForm.php(52): UserIdentity->authenticate()
+#2 /home/ubuntu/workspace/yii/framework/validators/CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 /home/ubuntu/workspace/yii/framework/validators/CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 /home/ubuntu/workspace/yii/framework/base/CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 /home/ubuntu/workspace/interactivevideo/protected/controllers/SiteController.php(65): CModel->validate()
+#6 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#9 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('')
+#11 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#12 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/interactivevideo/
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/
+---
+2016/10/22 16:47:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'interactive_videos.video' doesn't exist. The SQL statement executed was: INSERT INTO `video` (`video_url`, `video_user`) VALUES (:video_url, :video_user).
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (40)
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (64)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/22 16:47:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'interactive_videos.video' doesn't exist. The SQL statement executed was: INSERT INTO `video` (`video_url`, `video_user`) VALUES (:video_url, :video_user)' in /home/ubuntu/workspace/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/db/CDbCommand.php(1250): CDbCommand->execute(Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(40): CDbCommand->insert('video', Array)
+#2 /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php(64): VideoModel->AddVideo('https://www.you...')
+#3 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): PlatformController->actionNewVideo()
+#4 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('newvideo')
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/newvid...')
+#9 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/interactivevideo/platform/newvideo
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/22 16:47:28 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'interactive_videos.video' doesn't exist. The SQL statement executed was: INSERT INTO `video` (`video_url`, `video_user`) VALUES (:video_url, :video_user).
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (40)
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (64)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/22 16:47:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'interactive_videos.video' doesn't exist. The SQL statement executed was: INSERT INTO `video` (`video_url`, `video_user`) VALUES (:video_url, :video_user)' in /home/ubuntu/workspace/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/db/CDbCommand.php(1250): CDbCommand->execute(Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(40): CDbCommand->insert('video', Array)
+#2 /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php(64): VideoModel->AddVideo('https://www.you...')
+#3 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): PlatformController->actionNewVideo()
+#4 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('newvideo')
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/newvid...')
+#9 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/interactivevideo/platform/newvideo
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/22 21:54:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "api".' in /home/ubuntu/workspace/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(270): CController->missingAction('api')
+#1 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('api')
+#2 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/api/vi...')
+#3 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/interactivevideo/platform/api/video/1
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/video/1
+---
+2016/10/22 21:54:25 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': video' at line 3. The SQL statement executed was: SELECT `action`, `action_time`
+FROM `video_action`
+WHERE video_id = : video.
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (71)
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php (36)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/22 21:54:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': video' at line 3. The SQL statement executed was: SELECT `action`, `action_time`
+FROM `video_action`
+WHERE video_id = : video' in /home/ubuntu/workspace/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(71): CDbCommand->queryAll()
+#2 /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php(36): VideoModel->GetActionsByVideo('1')
+#3 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#4 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#9 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/interactivevideo/api/video/1
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/video/1
+---
+2016/10/22 21:54:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': video' at line 3. The SQL statement executed was: SELECT `action`, `action_time`
+FROM `video_action`
+WHERE video_id = : video.
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (71)
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php (36)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/22 21:54:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': video' at line 3. The SQL statement executed was: SELECT `action`, `action_time`
+FROM `video_action`
+WHERE video_id = : video' in /home/ubuntu/workspace/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(71): CDbCommand->queryAll()
+#2 /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php(36): VideoModel->GetActionsByVideo('1')
+#3 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#4 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#9 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/interactivevideo/api/video/1
+---
+2016/10/22 21:55:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'interactive_videos.video_action' doesn't exist. The SQL statement executed was: SELECT `action`, `action_time`
+FROM `video_action`
+WHERE video_id = :video.
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (71)
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php (36)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/22 21:55:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'interactive_videos.video_action' doesn't exist. The SQL statement executed was: SELECT `action`, `action_time`
+FROM `video_action`
+WHERE video_id = :video' in /home/ubuntu/workspace/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(71): CDbCommand->queryAll()
+#2 /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php(36): VideoModel->GetActionsByVideo('1')
+#3 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#4 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#9 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/interactivevideo/api/video/1
+---
+2016/10/22 21:55:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'action' in 'field list'. The SQL statement executed was: SELECT `action`, `action_time`
+FROM `video_actions`
+WHERE video_id = :video.
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (71)
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php (36)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/22 21:55:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'action' in 'field list'. The SQL statement executed was: SELECT `action`, `action_time`
+FROM `video_actions`
+WHERE video_id = :video' in /home/ubuntu/workspace/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(71): CDbCommand->queryAll()
+#2 /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php(36): VideoModel->GetActionsByVideo('1')
+#3 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#4 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#9 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/interactivevideo/api/video/1
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/video/1
+---
+2016/10/22 21:55:39 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'action' in 'field list'. The SQL statement executed was: SELECT `action`, `action_time`
+FROM `video_actions`
+WHERE video_id = :video.
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (71)
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php (36)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/22 21:55:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'action' in 'field list'. The SQL statement executed was: SELECT `action`, `action_time`
+FROM `video_actions`
+WHERE video_id = :video' in /home/ubuntu/workspace/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(71): CDbCommand->queryAll()
+#2 /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php(36): VideoModel->GetActionsByVideo('1')
+#3 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#4 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#9 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/interactivevideo/api/video/1
+---
+2016/10/22 22:25:41 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'interactive_videos.action_options' doesn't exist. The SQL statement executed was: SELECT `action_id`, `action_text`
+FROM `action_options`
+WHERE action_id = :action.
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (91)
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (75)
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php (36)
+2016/10/22 22:25:41 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'interactive_videos.action_options' doesn't exist. The SQL statement executed was: SELECT `action_id`, `action_text`
+FROM `action_options`
+WHERE action_id = :action' in /home/ubuntu/workspace/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(91): CDbCommand->queryAll()
+#2 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(75): VideoModel->GetActionsOptions('1')
+#3 /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php(36): VideoModel->GetActionsByVideo('1')
+#4 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/api/video/1
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/video/1
+---
+2016/10/22 22:25:44 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'interactive_videos.action_options' doesn't exist. The SQL statement executed was: SELECT `action_id`, `action_text`
+FROM `action_options`
+WHERE action_id = :action.
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (91)
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (75)
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php (36)
+2016/10/22 22:25:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'interactive_videos.action_options' doesn't exist. The SQL statement executed was: SELECT `action_id`, `action_text`
+FROM `action_options`
+WHERE action_id = :action' in /home/ubuntu/workspace/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(91): CDbCommand->queryAll()
+#2 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(75): VideoModel->GetActionsOptions('1')
+#3 /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php(36): VideoModel->GetActionsByVideo('1')
+#4 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/api/video/1
+---
+2016/10/22 22:26:55 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'action_text' in 'field list'. The SQL statement executed was: SELECT `action_id`, `action_text`
+FROM `actions_options`
+WHERE action_id = :action.
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (91)
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (75)
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php (36)
+2016/10/22 22:26:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'action_text' in 'field list'. The SQL statement executed was: SELECT `action_id`, `action_text`
+FROM `actions_options`
+WHERE action_id = :action' in /home/ubuntu/workspace/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(91): CDbCommand->queryAll()
+#2 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(75): VideoModel->GetActionsOptions('1')
+#3 /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php(36): VideoModel->GetActionsByVideo('1')
+#4 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/api/video/1
+---
+2016/10/22 22:30:52 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'interactive_videos.actions_options' doesn't exist. The SQL statement executed was: SELECT `action_id`, `option_text`
+FROM `actions_options`
+WHERE action_id = :action.
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (94)
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (75)
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php (36)
+2016/10/22 22:30:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'interactive_videos.actions_options' doesn't exist. The SQL statement executed was: SELECT `action_id`, `option_text`
+FROM `actions_options`
+WHERE action_id = :action' in /home/ubuntu/workspace/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(94): CDbCommand->queryAll()
+#2 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(75): VideoModel->GetActionsOptions('1')
+#3 /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php(36): VideoModel->GetActionsByVideo('1')
+#4 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/api/video/1
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/video/1
+---
+2016/10/22 22:30:59 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'interactive_videos.actions_options' doesn't exist. The SQL statement executed was: SELECT `action_id`, `option_text`
+FROM `actions_options`
+WHERE action_id = :action.
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (94)
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (75)
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php (36)
+2016/10/22 22:30:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'interactive_videos.actions_options' doesn't exist. The SQL statement executed was: SELECT `action_id`, `option_text`
+FROM `actions_options`
+WHERE action_id = :action' in /home/ubuntu/workspace/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(94): CDbCommand->queryAll()
+#2 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(75): VideoModel->GetActionsOptions('1')
+#3 /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php(36): VideoModel->GetActionsByVideo('1')
+#4 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/api/video/1
+---
+2016/10/23 13:10:08 [error] [exception.CException] exception 'CException' with message 'VideoModel and its behaviors do not have a method or closure named "GetChoicesByAction".' in /home/ubuntu/workspace/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php(41): CComponent->__call('GetChoicesByAct...', Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php(41): VideoModel->GetChoicesByAction('1')
+#2 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#7 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#8 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/interactivevideo/api/choices/1
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/video/1
+---
+2016/10/23 13:10:11 [error] [exception.CException] exception 'CException' with message 'VideoModel and its behaviors do not have a method or closure named "GetChoicesByAction".' in /home/ubuntu/workspace/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php(41): CComponent->__call('GetChoicesByAct...', Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php(41): VideoModel->GetChoicesByAction('1')
+#2 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#7 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#8 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/interactivevideo/api/choices/1
+---
+2016/10/23 13:13:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'O.option_text' in 'field list'. The SQL statement executed was: SELECT `O`.`option_text`, `O`.`choices`
+FROM `action_options`
+WHERE action_id = :action.
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (94)
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php (41)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 13:13:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'O.option_text' in 'field list'. The SQL statement executed was: SELECT `O`.`option_text`, `O`.`choices`
+FROM `action_options`
+WHERE action_id = :action' in /home/ubuntu/workspace/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(94): CDbCommand->queryAll()
+#2 /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php(41): VideoModel->GetChoicesByAction('1')
+#3 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#4 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#9 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/interactivevideo/api/choices/1
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/video/1
+---
+2016/10/23 13:13:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'O.option_text' in 'field list'. The SQL statement executed was: SELECT `O`.`option_text`, `O`.`choices`
+FROM `action_options`
+WHERE action_id = :action.
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (94)
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php (41)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 13:13:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'O.option_text' in 'field list'. The SQL statement executed was: SELECT `O`.`option_text`, `O`.`choices`
+FROM `action_options`
+WHERE action_id = :action' in /home/ubuntu/workspace/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php(94): CDbCommand->queryAll()
+#2 /home/ubuntu/workspace/interactivevideo/protected/controllers/ApiController.php(41): VideoModel->GetChoicesByAction('1')
+#3 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionView()
+#4 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/view')
+#9 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/interactivevideo/api/choices/1
+---
+2016/10/23 13:22:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "choice".' in /home/ubuntu/workspace/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(270): CController->missingAction('choice')
+#1 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('choice')
+#2 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/choice/unde...')
+#3 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/interactivevideo/api/choice/undefined
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/video/1
+---
+2016/10/23 13:23:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "choice".' in /home/ubuntu/workspace/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(270): CController->missingAction('choice')
+#1 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('choice')
+#2 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/choice/unde...')
+#3 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/interactivevideo/api/choice/undefined
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/video/1
+---
+2016/10/23 13:23:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "choice".' in /home/ubuntu/workspace/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(270): CController->missingAction('choice')
+#1 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('choice')
+#2 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/choice/unde...')
+#3 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/interactivevideo/api/choice/undefined
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/video/1
+---
+2016/10/23 13:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "choice".' in /home/ubuntu/workspace/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(270): CController->missingAction('choice')
+#1 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('choice')
+#2 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/choice/unde...')
+#3 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/interactivevideo/api/choice/undefined
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/video/1
+---
+2016/10/23 13:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "choice".' in /home/ubuntu/workspace/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(270): CController->missingAction('choice')
+#1 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('choice')
+#2 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/choice/unde...')
+#3 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/interactivevideo/api/choice/undefined
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/video/1
+---
+2016/10/23 15:17:16 [error] [exception.CException] exception 'CException' with message 'EmbedController cannot find the requested view "video/video".' in /home/ubuntu/workspace/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(782): CController->renderPartial('video/video', Array, true)
+#1 /home/ubuntu/workspace/interactivevideo/protected/controllers/EmbedController.php(50): CController->render('video/video', Array)
+#2 [internal function]: EmbedController->actionVideo('1')
+#3 /home/ubuntu/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(EmbedController), Array)
+#4 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(EmbedController), Object(ReflectionMethod), Array)
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('embed/video')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/embed/video/1
+---
+2016/10/23 15:28:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/embed.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/embed.css')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/embed.css
+HTTP_REFERER=http://vanhackathon-verzoto.c9users.io/interactivevideo/embed/video/1
+---
+2016/10/23 15:28:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/embed.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/embed.css')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/embed.css
+HTTP_REFERER=http://vanhackathon-verzoto.c9users.io/interactivevideo/embed/video/1
+---
+2016/10/23 15:29:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/embed.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/embed.css')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/embed.css
+HTTP_REFERER=http://vanhackathon-verzoto.c9users.io/interactivevideo/embed/video/1
+---
+2016/10/23 15:30:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/embed.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/embed.css')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/embed.css
+HTTP_REFERER=http://vanhackathon-verzoto.c9users.io/interactivevideo/embed/video/1
+---
+2016/10/23 15:31:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/embed.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/embed.css')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/embed.css
+HTTP_REFERER=http://vanhackathon-verzoto.c9users.io/interactivevideo/embed/video/1
+---
+2016/10/23 15:31:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/embed.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/embed.css')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/embed.css
+HTTP_REFERER=http://vanhackathon-verzoto.c9users.io/interactivevideo/embed/video/1
+---
+2016/10/23 15:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/embed.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/embed.css')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/embed.css
+HTTP_REFERER=http://vanhackathon-verzoto.c9users.io/interactivevideo/embed/video/1
+---
+2016/10/23 15:32:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/embed.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/embed.css')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/embed.css
+HTTP_REFERER=http://vanhackathon-verzoto.c9users.io/interactivevideo/embed/video/1
+---
+2016/10/23 15:33:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/embed.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/embed.css')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/embed.css
+HTTP_REFERER=http://vanhackathon-verzoto.c9users.io/interactivevideo/embed/video/1
+---
+2016/10/23 15:33:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/embed.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/embed.css')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/embed.css
+HTTP_REFERER=http://vanhackathon-verzoto.c9users.io/interactivevideo/embed/video/1
+---
+2016/10/23 16:31:05 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video')
+#4 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video')
+#5 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/interactivevideo/platform/video
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/
+---
+2016/10/23 16:31:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video')
+#4 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video')
+#5 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/interactivevideo/platform/video
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/
+---
+2016/10/23 16:33:00 [error] [exception.CException] exception 'CException' with message 'VideoModel and its behaviors do not have a method or closure named "GetAllVideos".' in /home/ubuntu/workspace/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php(63): CComponent->__call('GetAllVideos', Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php(63): VideoModel->GetAllVideos()
+#2 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): PlatformController->actionVideos()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('videos')
+#7 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/videos')
+#8 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/interactivevideo/platform/videos
+---
+2016/10/23 16:41:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video')
+#4 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video')
+#5 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/interactivevideo/platform/video/
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/videos
+---
+2016/10/23 16:44:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "platform/videos".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/videos')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/platform/videos
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/
+---
+2016/10/23 16:45:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "platform/videos".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/videos')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/platform/videos
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/
+---
+2016/10/23 16:46:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "platform/videos".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/videos')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/platform/videos
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/
+---
+2016/10/23 16:46:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "platform/video".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/platform/video/1
+---
+2016/10/23 16:46:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "platform/video".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/platform/video/1
+---
+2016/10/23 16:48:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/platform/layout.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/platform/la...')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/platform/layout.css
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/video/1
+---
+2016/10/23 16:49:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/platform/layout.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/platform/la...')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/platform/layout.css
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/videos
+---
+2016/10/23 16:49:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/platform/layout.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/platform/la...')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/platform/layout.css
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/videos
+---
+2016/10/23 16:50:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/platform/layout.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/platform/la...')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/platform/layout.css
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/video/1
+---
+2016/10/23 16:50:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/platform/layout.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/platform/la...')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/platform/layout.css
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/video/1
+---
+2016/10/23 16:50:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/platform/layout.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/platform/la...')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/platform/layout.css
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/videos
+---
+2016/10/23 16:51:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/platform/layout.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/platform/la...')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/platform/layout.css
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/videos
+---
+2016/10/23 16:51:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/platform/layout.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/platform/la...')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/platform/layout.css
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/videos
+---
+2016/10/23 16:51:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/platform/layout.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/platform/la...')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/platform/layout.css
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/videos
+---
+2016/10/23 16:51:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/platform/layout.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/platform/la...')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/platform/layout.css
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/videos
+---
+2016/10/23 16:52:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/platform/layout.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/platform/la...')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/platform/layout.css
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/videos
+---
+2016/10/23 16:53:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/platform/layout.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/platform/la...')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/platform/layout.css
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/videos
+---
+2016/10/23 16:54:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/platform/layout.css".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('css/platform/la...')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/css/platform/layout.css
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/videos
+---
+2016/10/23 17:20:54 [error] [exception.CException] exception 'CException' with message 'Property "VideoModel.video_title" is not defined.' in /home/ubuntu/workspace/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/helpers/CHtml.php(2529): CComponent->__get('video_title')
+#1 /home/ubuntu/workspace/yii/framework/web/helpers/CHtml.php(2252): CHtml::resolveValue(Object(VideoModel), 'video_title')
+#2 /home/ubuntu/workspace/yii/framework/web/helpers/CHtml.php(1434): CHtml::activeInputField('text', Object(VideoModel), 'video_title', Array)
+#3 /home/ubuntu/workspace/yii/framework/web/widgets/CActiveForm.php(725): CHtml::activeTextField(Object(VideoModel), 'video_title', Array)
+#4 /home/ubuntu/workspace/interactivevideo/protected/views/platform/video/new.php(21): CActiveForm->textField(Object(VideoModel), 'video_title', Array)
+#5 /home/ubuntu/workspace/yii/framework/web/CBaseController.php(126): require('/home/ubuntu/wo...')
+#6 /home/ubuntu/workspace/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/ubuntu/wo...', Array, true)
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/ubuntu/wo...', Array, true)
+#8 /home/ubuntu/workspace/yii/framework/web/CController.php(782): CController->renderPartial('video/new', Array, true)
+#9 /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php(109): CController->render('video/new', Array)
+#10 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): PlatformController->actionNewVideo()
+#11 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#12 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#14 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#18 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('newvideo')
+#20 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/newvid...')
+#21 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#22 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/interactivevideo/platform/newvideo
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/videos
+---
+2016/10/23 17:25:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video.url".' in /home/ubuntu/workspace/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(270): CController->missingAction('video.url')
+#1 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video.url')
+#2 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video....')
+#3 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/interactivevideo/platform/video.url
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:25:25 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/platform/video
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:25:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/platform/video
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:25:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video.url".' in /home/ubuntu/workspace/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(270): CController->missingAction('video.url')
+#1 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video.url')
+#2 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video....')
+#3 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/interactivevideo/platform/video.url
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:25:49 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/platform/video
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:26:11 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/platform/video
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:27:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video.url".' in /home/ubuntu/workspace/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(270): CController->missingAction('video.url')
+#1 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video.url')
+#2 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video....')
+#3 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/interactivevideo/platform/video.url
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:27:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/platform/video
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:28:45 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/platform/video
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:28:46 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/platform/video
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:29:55 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/platform/video
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:29:55 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/platform/video
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:29:56 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/platform/video
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:38:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/ubuntu/workspace/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform')
+#3 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/interactivevideo/platform/
+---
+2016/10/23 17:39:42 [error] [exception.CException] exception 'CException' with message 'PlatformController cannot find the requested view "new".' in /home/ubuntu/workspace/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(782): CController->renderPartial('new', NULL, true)
+#1 /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php(120): CController->render('new')
+#2 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): PlatformController->actionNewAction()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('newaction')
+#12 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/newact...')
+#13 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interactivevideo/platform/newaction
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:39:42 [error] [exception.CException] exception 'CException' with message 'PlatformController cannot find the requested view "new".' in /home/ubuntu/workspace/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(782): CController->renderPartial('new', NULL, true)
+#1 /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php(120): CController->render('new')
+#2 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): PlatformController->actionNewAction()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('newaction')
+#12 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/newact...')
+#13 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interactivevideo/platform/newaction
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:39:44 [error] [exception.CException] exception 'CException' with message 'PlatformController cannot find the requested view "new".' in /home/ubuntu/workspace/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(782): CController->renderPartial('new', NULL, true)
+#1 /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php(120): CController->render('new')
+#2 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): PlatformController->actionNewAction()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('newaction')
+#12 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/newact...')
+#13 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interactivevideo/platform/newaction
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:39:45 [error] [exception.CException] exception 'CException' with message 'PlatformController cannot find the requested view "new".' in /home/ubuntu/workspace/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(782): CController->renderPartial('new', NULL, true)
+#1 /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php(120): CController->render('new')
+#2 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): PlatformController->actionNewAction()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('newaction')
+#12 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/newact...')
+#13 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interactivevideo/platform/newaction
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:39:45 [error] [exception.CException] exception 'CException' with message 'PlatformController cannot find the requested view "new".' in /home/ubuntu/workspace/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(782): CController->renderPartial('new', NULL, true)
+#1 /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php(120): CController->render('new')
+#2 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): PlatformController->actionNewAction()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('newaction')
+#12 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/newact...')
+#13 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interactivevideo/platform/newaction
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:45:54 [error] [exception.CException] exception 'CException' with message 'PlatformController cannot find the requested view "new".' in /home/ubuntu/workspace/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(782): CController->renderPartial('new', NULL, true)
+#1 /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php(120): CController->render('new')
+#2 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): PlatformController->actionNewAction()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('newaction')
+#12 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/newact...')
+#13 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interactivevideo/platform/newaction
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:46:16 [error] [exception.CException] exception 'CException' with message 'PlatformController cannot find the requested view "new".' in /home/ubuntu/workspace/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(782): CController->renderPartial('new', NULL, true)
+#1 /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php(120): CController->render('new')
+#2 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): PlatformController->actionNewAction()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('newaction')
+#12 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/newact...')
+#13 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interactivevideo/platform/newaction
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:48:12 [error] [php] Illegal string offset 'videoURL' (/home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php:44)
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): PlatformController->runAction()
+#2 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): PlatformController->filterAccessControl()
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): PlatformController->runActionWithFilters()
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): PlatformController->run()
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CWebApplication->run()
+REQUEST_URI=/interactivevideo/platform/newvideo
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (44)
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (104)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 17:50:22 [error] [exception.CException] exception 'CException' with message 'Property "VideoModel.attribute" is not defined.' in /home/ubuntu/workspace/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php(104): CComponent->__set('attribute', Array)
+#1 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): PlatformController->actionNewVideo()
+#2 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#3 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#5 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#6 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#7 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#8 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#9 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('newvideo')
+#11 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/newvid...')
+#12 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#13 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/interactivevideo/platform/newvideo
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:50:32 [error] [exception.CException] exception 'CException' with message 'PlatformController cannot find the requested view "new".' in /home/ubuntu/workspace/yii/framework/web/CController.php:878
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(782): CController->renderPartial('new', NULL, true)
+#1 /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php(124): CController->render('new')
+#2 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): PlatformController->actionNewAction()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#10 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('newaction')
+#12 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/newact...')
+#13 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#14 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/interactivevideo/platform/newaction
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 17:51:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /home/ubuntu/workspace/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform')
+#3 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/interactivevideo/platform/
+---
+2016/10/23 18:27:38 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('newaction')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/newact...')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/platform/newaction?0%5Bid%5D=21
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 18:29:14 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('newaction')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/newact...')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/platform/newaction?0%5Bid%5D=22
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newvideo
+---
+2016/10/23 19:33:40 [warning] [application] Failed to set unsafe attribute "action" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:33:40 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:33:59 [warning] [application] Failed to set unsafe attribute "action" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:33:59 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:34:15 [warning] [application] Failed to set unsafe attribute "action" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:34:15 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:34:32 [warning] [application] Failed to set unsafe attribute "question" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:34:32 [warning] [application] Failed to set unsafe attribute "0" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:34:33 [warning] [application] Failed to set unsafe attribute "question" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:34:33 [warning] [application] Failed to set unsafe attribute "0" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:39:01 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:41:00 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:41:07 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:44:32 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:46:21 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:46:21 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'choises' in 'field list'. The SQL statement executed was: INSERT INTO `action_options` (`action_id`, `option_text`, `choises`) VALUES (:action_id, :option_text, :choises).
+in /home/ubuntu/workspace/interactivevideo/protected/models/ActionModel.php (64)
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (143)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:46:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'choises' in 'field list'. The SQL statement executed was: INSERT INTO `action_options` (`action_id`, `option_text`, `choises`) VALUES (:action_id, :option_text, :choises)' in /home/ubuntu/workspace/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/db/CDbCommand.php(1250): CDbCommand->execute(Array)
+#1 /home/ubuntu/workspace/interactivevideo/protected/models/ActionModel.php(64): CDbCommand->insert('action_options', Array)
+#2 /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php(143): ActionModel->AddResponses(1, Array)
+#3 [internal function]: PlatformController->actionNewAction('25')
+#4 /home/ubuntu/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(PlatformController), Array)
+#5 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(PlatformController), Object(ReflectionMethod), Array)
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#7 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#9 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#13 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('newaction')
+#15 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/newact...')
+#16 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#17 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/interactivevideo/platform/newaction/25
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newaction/25
+---
+2016/10/23 19:46:52 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:47:39 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:48:17 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:49:37 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:52:58 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:55:55 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (135)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 19:59:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video/...')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/platform/video/x
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/video/28
+---
+2016/10/23 19:59:33 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('video')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/video/...')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/platform/video/x
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/video/28
+---
+2016/10/23 20:18:31 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (134)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 20:22:07 [error] [php] substr_replace() expects at least 3 parameters, 2 given (/home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php:44)
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/actions/CInlineAction.php(49): PlatformController->actionNewVideo()
+#1 /home/ubuntu/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): PlatformController->runAction()
+#3 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#4 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CAccessControlFilter->filter()
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): PlatformController->filterAccessControl()
+#6 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#8 /home/ubuntu/workspace/yii/framework/web/CController.php(265): PlatformController->runActionWithFilters()
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): PlatformController->run()
+#10 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#11 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /home/ubuntu/workspace/interactivevideo/index.php(13): CWebApplication->run()
+REQUEST_URI=/interactivevideo/platform/newvideo
+in /home/ubuntu/workspace/interactivevideo/protected/models/VideoModel.php (44)
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (112)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 20:22:33 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in /home/ubuntu/workspace/yii/framework/web/CController.php:336
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 /home/ubuntu/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#3 /home/ubuntu/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 /home/ubuntu/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 /home/ubuntu/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 /home/ubuntu/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#7 /home/ubuntu/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(282): CController->run('newaction')
+#9 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('platform/newact...')
+#10 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#11 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/interactivevideo/platform/newaction/watch?v=?enablejsapi=1
+HTTP_REFERER=https://vanhackathon-verzoto.c9users.io/interactivevideo/platform/newaction/32
+---
+2016/10/23 20:25:46 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (134)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 20:26:02 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (134)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 20:28:54 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (134)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 20:32:05 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (134)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 20:34:18 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (134)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 20:34:27 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (134)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 20:34:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "videos".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('videos')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/videos
+---
+2016/10/23 20:39:42 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (134)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 20:40:47 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (134)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 20:40:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "videos".' in /home/ubuntu/workspace/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/ubuntu/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('videos')
+#1 /home/ubuntu/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/ubuntu/workspace/interactivevideo/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/interactivevideo/videos
+---
+2016/10/23 20:45:46 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (134)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 20:53:42 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (134)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 21:12:37 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (134)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)
+2016/10/23 21:14:03 [warning] [application] Failed to set unsafe attribute "choises" of "ActionModel".
+in /home/ubuntu/workspace/interactivevideo/protected/controllers/PlatformController.php (134)
+in /home/ubuntu/workspace/interactivevideo/index.php (13)

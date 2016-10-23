@@ -1,0 +1,26 @@
+body{
+    background:#ecf0f1;
+    font-family:'Montserrat', sans-serif;
+}
+
+li{list-style:none;}
+
+header{
+    background:#27ae60;
+    height:50px;
+    padding-top:15px;
+    margin-bottom:50px;
+}
+
+header .title{
+    color:#FFF;
+}
+
+header a{
+    color:#FFF;
+    transition:0.5s;
+}
+
+header a:hover{
+    color:#34495e;
+}

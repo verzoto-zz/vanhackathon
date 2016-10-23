@@ -1,0 +1,9 @@
+#form{
+    background:#FFF;
+    padding:20px;
+}
+
+.errorMessage{
+    font-size:10px;
+    color: #c0392b;
+}

@@ -1,20 +1,11 @@
-<?php
-/* @var $this SiteController */
+<?php Yii::app()->clientScript->registerCssFile(Yii::app()->baseUrl.'/css/index.css'); ?>
 
-$this->pageTitle=Yii::app()->name;
-?>
+<div class="spotlight">
+	<h1 class="text-center">CREATE AWESOME INTERACTIVE VIDEOS!</h1>
+	<li class="text-center">
+		<a class="btn btn-success" href="<?php echo $this->createUrl('platform/videos'); ?>">Show Videos!</a>
+		<a class="btn btn-info" href="<?php echo $this->createUrl('platform/newvideo'); ?>">Create Videos!</a>
+	</li>
+</div>
 
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
-
-<p>Congratulations! You have successfully created your Yii application.</p>
-
-<p>You may change the content of this page by modifying the following two files:</p>
-<ul>
-	<li>View file: <code><?php echo __FILE__; ?></code></li>
-	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
-</ul>
-
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>
+<p class="obs">VanHackathon 2016</p>
